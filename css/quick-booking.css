@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arizonia&family=Charmonman:wght@400;700&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arizonia&family=Charmonman:wght@400;700&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Archivo+Black&family=Arizonia&family=Charmonman:wght@400;700&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+.container {
+  /* max-width: 1600px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.navbar-nav {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+}
+.btn-sign-in {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+}
+.banner {
+  /* position: relative; */
+  background-image: url("../images/quick-booking-background.png");
+  background-color: #000000;
+  /* height: auto; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* min-height: 100vh; */
+  max-height: 347vh;
+}
+.banner-content {
+  padding: 100px;
+}
+.banner-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  font-weight: medium;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.booking-form{
+  padding: 60px 0;
+}
+input[type="date"].form-control {
+  background-color: #2c2c2c; /* dark background */
+  color: white; /* text color */
+  border: 1px solid #444;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: transparent !important;
+}
+
+.form-select{
+    background-color: #2D2A2A;
+}
+
+.btn-1{
+    background-color: #111111;
+    border: 1px solid #ccc;
+  color: white;
+}
+
+
+.step-number{
+    background-color: #302D2D;
+}
+.step-title{
+     font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  font-weight: semibold;
+  color: #ffffff;
+}
+
+.step-description{
+    font-style: "inter", sans-serif;
+    font-weight: regular;
+    font-size: 15px;
+    color: #AFAFAF;
+}
+
+.adventure-section {
+  background-image: url("../images/adventure-background-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: auto; /* Let content define height */
+  padding: 60px 0; /* Enough vertical padding */
+  /* height: 100vh; */
+  /* padding-top: 40px;
+  padding-bottom: 10px; */
+}
+.adventures-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 48px;
+  color: #ffffffd9;
+}
+.adventures-service{
+    padding-bottom: 80px;
+}
+.txt-head {
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  color: #ffffff99;
+}
+.txt-para {
+  font-size: 16px;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 400;
+  /* color: #FFFFFFBF; */
+  color: #afafafbf;
+}
+
+.custom-select {
+  padding-left: 40px; /* space for the icon */
+  background-color: #1f1f1f;
+  border: 1px solid #ccc;
+  color: white;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg fill='white' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+
+
+/* app-download */
+
+/* app-download */
+.app-download-section{
+    padding-left: 200px;
+    border: 2px solid white; /* Adds the white border */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  padding: 20px; 
+}
+.download {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.main{
+    padding-bottom: 200px;
+    position: relative;
+  height: 150px;
+
+}
+
+.image1 {
+  position: absolute;
+  bottom: 3px;
+  /* top: 10px; */
+  /* left: 50px; */
+  z-index: 10;
+}
+.image2 {
+  position: absolute;
+  left: 150px;
+  bottom: 10px;
+}
+
+/* White border for buttons */
+.btn-dark.border-white {
+  border: 2px solid white;
+}
+
+
+/* top-cities */
+.top-cities {
+  font-family: "Oxanium", sans-serif;
+  background-color: #161515eb;
+  font-size: 16px;
+  font-weight: 700;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+/* Common styles for all selects with icons */
+.select-with-icon {
+  background-repeat: no-repeat;
+  background-position: 10px center; /* Adjust horizontal and vertical position */
+  padding-left: 40px; /* Increase based on icon width */
+}
+
+/* Specific background images for each field */
+.select-car {
+  background-image: url("../images/car.png");
+}
+
+.select-pickup {
+  background-image: url("../images/location.png");
+}
+
+.select-dest {
+  background-image: url("../images/location.png");
+}
+
+.select-calendar {
+  background-image: url("../images/date.png");
+}
+
+.select-time {
+  background-image: url("../images/date.png");
+}
+
+/* Optional: Hide the default dropdown arrow in Internet Explorer */
+select::-ms-expand {
+  display: none;
+}
+
+
+
+/* footer */
+
+.footer-head {
+  color: linear-gradient(to right, #ffffff, #cfb1ab);
+  font-family: "Afacad", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer-para {
+  font-family: "Oxanium", sans-serif;
+  color: #ffffffbf;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contact-info {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffffc7;
+}
+.list-unstyled {
+  font-family: "Oxanium", sans-serif;
+  color: #ffffffbf;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.quick-links {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffffc7;
+}
+
+.social-network {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffffc7;
+}
+
+.copyright {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffffc7;
+}
+
+.terms-privacy {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffffc7;
+}
+.footer-underline {
+  width: 70px;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}

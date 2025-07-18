@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Wheels</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.5-dist/css/bootstrap.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/cars1.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg nav-bar py-2">
+        <div class="container">
+          <div class="navbar-brand text-light" href="#">
+            <h6 class="footer-head">ALPHA <br> WHEELS</h6>
+              <div class="footer-underline"></div>
+            <!-- ALPHA <br />
+            WHEELS -->
+          </div>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light fw-medium mx-5 py-2"
+                  aria-current="page"
+                  href="./home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./cars.html">Cars</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./quick-booking.html"
+                  >Booking</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <button
+              class="btn btn-dark btn-sign-in text-white ms-5 px-4"
+              type="submit"
+            >
+              Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner text-center py-5">
+        <div class="container">
+          <div class="banner-content">
+            <h1 class="banner-heading">Cars</h1>
+            <p class="banner-para">
+              we believe that everyone deserves to experience the you need
+              transportation for a business trip, <br />
+              family vacation, or simply want to enjoy a weekend getaway,.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="car-details-section py-5 text-white"
+        style="background-color: #090808"
+      >
+        <div class="container">
+          <div class="row">
+            <!-- Left Column: Image + Thumbnails -->
+            <div class="col-md-6 mb-4">
+              <img
+                src="./images/bmw_big_img.png"
+                alt="BMW M2 2020"
+                class="img-fluid rounded mb-3"
+              />
+              <div class="d-flex gap-2">
+                <img
+                  src="./images/bmw_img1.png"
+                  class="img-thumbnail"
+                  style="width: 80px"
+                />
+                <img
+                  src="./images/bmw_img2.png"
+                  class="img-thumbnail"
+                  style="width: 80px"
+                />
+                <img
+                  src="./images/bmw_img3.png"
+                  class="img-thumbnail"
+                  style="width: 80px"
+                />
+                <img
+                  src="./images/bmw_img4.png"
+                  class="img-thumbnail"
+                  style="width: 80px"
+                />
+              </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+              <!-- Title + Description -->
+              <div class="row">
+                <div class="col">
+                  <h3>BMW M2 2020</h3>
+                  <p>
+                    The BMW M2 is the high- performance version of the 2 Series
+                    2-door coupé. The first generation of the M2 is the F87
+                    coupé and is powered by turbocharged.
+                  </p>
+                </div>
+                <div class="col">
+                  <!-- Daily Rate -->
+                  <div
+                    class="bg-dark text-white text-center py-2 px-3 rounded mb-3"
+                    style="width: 150px"
+                  >
+                    <small>Daily rate</small>
+                    <h4 class="mb-0">$265</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <!-- Specifications Table -->
+                  <div
+                    class="border p-3 rounded mb-4"
+                    style="border-color: #444 !important"
+                  >
+                    <h5>Specifications</h5>
+                    <div class="row g-3">
+                      <div class="col-6"><strong>Body:</strong> Sedan</div>
+                      <div class="col-6"><strong>Seats:</strong> 2 seats</div>
+                      <div class="col-6"><strong>Doors:</strong> 2 doors</div>
+                      <div class="col-6"><strong>Luggage:</strong> 150</div>
+                      <div class="col-6">
+                        <strong>Fuel Type:</strong> Hybrid
+                      </div>
+                      <div class="col-6"><strong>Engine:</strong> 3000</div>
+                      <div class="col-6"><strong>Year:</strong> 2020</div>
+                      <div class="col-6"><strong>Mileage:</strong> 200</div>
+                      <div class="col-6">
+                        <strong>Transmission:</strong> Automatic
+                      </div>
+                      <div class="col-6"><strong>Drive:</strong> 4WD</div>
+                      <div class="col-6">
+                        <strong>Fuel Economy:</strong> 18.5
+                      </div>
+                      <div class="col-6">
+                        <strong>Exterior:</strong> Blue Metallic
+                      </div>
+                      <div class="col-6"><strong>Interior:</strong> Black</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col md-4">
+                  <!-- Booking Form -->
+                  <div
+                    class="border p-3 rounded mb-4"
+                    style="border-color: #444 !important"
+                  >
+                    <h5>Booking this car</h5>
+                    <form>
+                      <select
+                        class="form-select custom-select text-light bg-dark select-with-icon select-pickup"
+                        id="pickupLocation"
+                      >
+                        <option selected>Enter your pickup location</option>
+                        <option value="1">Kolkata</option>
+                        <option value="2">Delhi</option>
+                        <option value="3">Mumbai</option>
+                      </select>
+                      <select
+                        class="form-select custom-select text-light bg-dark select-with-icon select-dest"
+                        id="destination"
+                      >
+                        <option selected>Enter your destination</option>
+                        <option value="1">Kolkata</option>
+                        <option value="2">Delhi</option>
+                        <option value="3">Mumbai</option>
+                      </select>
+                      <div class="row">
+                        <div class="col-md-6">
+                        <select
+                          class="form-select custom-select text-light bg-dark select-with-icon select-calendar"
+                          id="pickupDate"
+                        >
+                          <option selected>Pick Up date</option>
+                          <option value="1">02-03-2024</option>
+                          <option value="2">02-03-2024</option>
+                          <option value="3">02-03-2024</option>
+                        </select>
+                      </div>
+
+                      <!-- Pickup Time -->
+                      <div class="col-md-6">
+                        <select
+                          class="form-select custom-select text-light bg-dark select-with-icon select-time"
+                          id="pickupTime"
+                        >
+                          <option selected>12:00 AM</option>
+                          <option value="1">01:00 AM</option>
+                          <option value="2">02:00 AM</option>
+                          <option value="3">03:00 AM</option>
+                        </select>
+                      </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-6">
+                        <select
+                          class="form-select custom-select text-light bg-dark select-with-icon select-calendar"
+                          id="pickupDate"
+                        >
+                          <option selected>Pick Up date</option>
+                          <option value="1">02-03-2024</option>
+                          <option value="2">02-03-2024</option>
+                          <option value="3">02-03-2024</option>
+                        </select>
+                      </div>
+
+                      <!-- Pickup Time -->
+                      <div class="col-md-6">
+                        <select
+                          class="form-select custom-select text-light bg-dark select-with-icon select-time"
+                          id="pickupTime"
+                        >
+                        <option value="1">01:00 AM</option>
+                          <option selected>12:00 AM</option>
+                          <option value="2">02:00 AM</option>
+                          <option value="3">03:00 AM</option>
+                        </select>
+                      </div>
+                      </div>
+                      <!-- <div class="mb-2">
+                        <input
+                          type="text"
+                          class="form-control bg-dark text-white border-0"
+                          placeholder="Enter your pickup location"
+                        />
+                      </div> -->
+                      <!-- <div class="mb-2">
+                        <input
+                          type="text"
+                          class="form-control bg-dark text-white border-0"
+                          placeholder="Enter your destination"
+                        />
+                      </div>
+                      <div class="mb-2">
+                        <input
+                          type="datetime-local"
+                          class="form-control bg-dark text-white border-0"
+                        />
+                      </div>
+                      <div class="mb-2">
+                        <input
+                          type="datetime-local"
+                          class="form-control bg-dark text-white border-0"
+                        />
+                      </div> -->
+                      <button type="submit" class="btn btn-outline-light w-100">
+                        Book Now
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="row d-flex gap-2">
+                  <div class="col">
+                    <h5>Features</h5>
+                    <ul class="list-style">
+                      <li>Bluetooth</li>
+                      <li>Multimedia Player</li>
+                      <li>Central Lock</li>
+                      <li>Sunroof</li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <h5>Share</h5>
+                    <a href="#"
+                      ><img src="./images/social_img1.png" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="./images/social_img2.png" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="./images/social_img3.png" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="./images/social_img4.png" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="./images/social_img5.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer py-5 text-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-3">
+            <h6 class="footer-head">
+              ALPHA <br />
+              WHEELS
+            </h6>
+            <div class="footer-underline"></div>
+
+            <p class="footer-para">
+              Where quality meets affordability. We understand the importance of
+              a smooth and enjoyable journey without the burden of excessive
+              costs. That's why we have meticulously crafted our offerings to
+              provide you with top-notch vehicles at minimum expense.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="contact-info py-2">Contact Info</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #dbdfe6"
+                  ></i>
+                  08 W 36th St, New York, NY 10001
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i class="fa-solid fa-phone" style="color: #e3e7ed"></i>
+                  +1 333 9296
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i class="fa-solid fa-envelope" style="color: #e5e7eb"></i>
+                  contact@example.com
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <img src="./images/download_brouchure.png" alt="" />
+                  Download Brochure
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="quick-links py-2">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Cars</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Booking</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="social-network py-2">Social Network</h6>
+            <a href="#"><img src="./images/social_img1.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img2.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img3.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img4.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img5.png" alt="" /></a>
+          </div>
+        </div>
+        <hr />
+        <!-- Footer bottom -->
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-4"
+        >
+          <div class="copyright">Copyright 2024 - Rentaly by Designesia</div>
+          <div class="terms-privacy">
+            <a href="#" class="text-light text-decoration-none me-3"
+              >Terms & Conditions</a
+            >
+            <a href="#" class="text-light text-decoration-none"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <a href="#">Hello</a> -->
+    <!-- Fourth link popperjs cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Third link js cdn -->
+    <script src="./bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

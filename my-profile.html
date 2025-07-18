@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Wheels</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.5-dist/css/bootstrap.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/my-profile.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg nav-bar py-2">
+        <div class="container">
+          <div class="navbar-brand text-light" href="#">
+            <h6 class="footer-head">ALPHA <br> WHEELS</h6>
+              <div class="footer-underline"></div>
+            <!-- ALPHA <br />
+            WHEELS -->
+          </div>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light fw-medium mx-5 py-2"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./cars.html">Cars</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./quick-booking.html"
+                  >Booking</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <!-- <button
+              class="btn btn-dark btn-sign-in text-white ms-5 px-4"
+              type="submit"
+            > -->
+              <button class="btn-1 btn-dark btn-sign-in dropdown-toggle d-flex align-items-center gap-2 px-2 py-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./images/54.png" alt="">
+              <span>Howard</span>
+
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner text-center py-5">
+        <div class="container">
+          <div class="banner-content">
+            <h1 class="banner-heading">My Profile</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="profile py-5">
+        <div class="container profile-container shadow-lg">
+          <div class="row g-0">
+            <div class="col-md-3 sidebar text-center">
+              <img src="./images/profile-img1.png" alt="" />
+              <div class="details">
+                <h5 class="heading">Ester Howard</h5>
+              <p class="text">esther@email.com</p> <hr>
+              </div>
+              <nav class="nav flex-column mt-4 profile-details">
+                <a class="nav-link active profile" href="#"
+                  ><img src="./images/profile.png" alt="" />My profile</a
+                >
+                <a class="nav-link" href="#"
+                  ><img src="./images/my-orders.png" alt="" />My Orders</a
+                >
+                <a class="nav-link" href="#"
+                  ><img src="./images/my-favorite-cars.png" alt="" />My Favorite
+                  Cars</a
+                >
+                <a class="nav-link" href="#"
+                  ><img src="./images/signout.png" alt="" />Sign Out</a
+                >
+              </nav>
+            </div>
+
+            <!-- Profile Info -->
+            <div class="col-md-9 profile-card">
+              <div class="car-card d-flex align-items-center">
+
+              </div>
+              <h4>Profile</h4>
+              <div class="text-center my-4">
+                <img
+                  src="./images/profile-img2.png"
+                  class="profile-img"
+                  alt="User"
+                />
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  Full Name
+                </div>
+                <div class="col"> Esther Howard</div>
+                <div class="col"><button class="btn edit-btn rounded-pill btn-outline-light text-black btn-sm edit-btn">
+                    <i class="fa fa-pen"></i> Edit
+                  </button></div>
+              </div> <hr>
+              <div class="row">
+                <div class="col">
+                  Email address
+                </div>
+                <div class="col">esther@email.com</div>
+                <div class="col"><button class="btn edit-btn rounded-pill btn-outline-light text-black btn-sm edit-btn">
+                    <i class="fa fa-pen"></i> Edit
+                  </button></div>
+              </div> <hr>
+              <div class="row">
+                <div class="col">
+                  Phone number
+                </div>
+                <div class="col">+44 126 456 8595</div>
+                <div class="col"><button class="btn edit-btn rounded-pill btn-outline-light text-black btn-sm edit-btn">
+                    <i class="fa fa-pen"></i> Edit
+                  </button></div>
+              </div> <hr>
+              <!-- <div class="mb-3">
+                <label class="info-label">Full Name</label>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex gap-2">
+                    <span>Esther</span>
+                    <span>Howard</span>
+                  </div> -->
+                  <!-- <span>Esther Howard</span> -->
+                  <!-- <button class="btn btn-outline-light btn-sm edit-btn">
+                    <i class="fa fa-pen"></i> Edit
+                  </button>
+                </div>
+              </div> -->
+
+              <!-- <div class="mb-3">
+                <label class="info-label">Email Address</label>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span>esther@email.com</span>
+                  <button class="btn btn-outline-light btn-sm edit-btn">
+                    <i class="fa fa-pen"></i> Edit
+                  </button>
+                </div>
+              </div> -->
+
+              <!-- <div class="mb-4">
+                <label class="info-label">Phone Number</label>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span>+44 126 456 8595</span>
+                  <button class="btn btn-outline-light btn-sm edit-btn">
+                    <i class="fa fa-pen"></i> Edit
+                  </button>
+                </div>
+              </div> -->
+
+              <div class="text-center py-5">
+                <button class="btn btn-2 me-5 px-4">Change Password</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer py-5 text-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-3">
+            <h6 class="footer-head">
+              ALPHA <br />
+              WHEELS
+            </h6>
+            <div class="footer-underline"></div>
+
+            <p class="footer-para">
+              Where quality meets affordability. We understand the importance of
+              a smooth and enjoyable journey without the burden of excessive
+              costs. That's why we have meticulously crafted our offerings to
+              provide you with top-notch vehicles at minimum expense.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="contact-info py-2">Contact Info</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #dbdfe6"
+                  ></i>
+                  08 W 36th St, New York, NY 10001
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i class="fa-solid fa-phone" style="color: #e3e7ed"></i>
+                  +1 333 9296
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i class="fa-solid fa-envelope" style="color: #e5e7eb"></i>
+                  contact@example.com
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <img src="./images/download_brouchure.png" alt="" />
+                  Download Brochure
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="quick-links py-2">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Cars</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Booking</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="social-network py-2">Social Network</h6>
+            <a href="#"><img src="./images/social_img1.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img2.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img3.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img4.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img5.png" alt="" /></a>
+          </div>
+        </div>
+        <hr>
+        <!-- Footer bottom -->
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-4"
+        >
+          <div class="copyright">Copyright 2024 - Rentaly by Designesia</div>
+          <div class="terms-privacy">
+            <a href="#" class="text-light text-decoration-none me-3"
+              >Terms & Conditions</a
+            >
+            <a href="#" class="text-light text-decoration-none"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <a href="#">Hello</a> -->
+    <!-- Fourth link popperjs cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Third link js cdn -->
+    <script src="./bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Wheels</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.5-dist/css/bootstrap.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/quick-booking.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+       <nav class="navbar navbar-expand-lg nav-bar py-2">
+        <div class="container">
+          <div class="navbar-brand text-light" href="#">
+            <h6 class="footer-head">ALPHA <br> WHEELS</h6>
+              <div class="footer-underline"></div>
+            <!-- ALPHA <br />
+            WHEELS -->
+          </div>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light fw-medium mx-5 py-2"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./cars.html">Cars</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./quick-booking.html"
+                  >Booking</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <a href="./sign-up.html" class="btn btn-dark btn-sign-in text-white ms-5 px-4">Sign In</a>
+
+            <!-- <button
+              class="btn btn-dark btn-sign-in text-white ms-5 px-4"
+              type="submit"
+            >
+              Sign In
+            </button> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+       <section class="banner text-center py-5">
+  <div class="container">
+    <div class="banner-content">
+      <h1 class="banner-heading">Quick Booking</h1>
+    </div>
+    <form class="booking-form">
+      <div class="row g-3">
+        <!-- Car Type -->
+        <div class="col-md-4">
+          <select class="form-select custom-select text-light select-with-icon select-car" id="carType">
+            <option selected>Select your Car Type</option>
+            <option value="1">Sedan</option>
+            <option value="2">SUV</option>
+            <option value="3">Hatchback</option>
+          </select>
+        </div>
+
+        <!-- Pickup Location -->
+        <div class="col-md-4">
+          <select class="form-select custom-select text-light select-with-icon select-pickup" id="pickupLocation">
+            <option selected>Enter your pickup location</option>
+            <option value="1">Kolkata</option>
+            <option value="2">Delhi</option>
+            <option value="3">Mumbai</option>
+          </select>
+        </div>
+
+        <!-- Destination -->
+        <div class="col-md-4">
+          <select class="form-select custom-select text-light select-with-icon select-dest" id="destination">
+            <option selected>Enter your destination</option>
+            <option value="1">Kolkata</option>
+            <option value="2">Delhi</option>
+            <option value="3">Mumbai</option>
+          </select>
+        </div>
+
+        <!-- Pickup Date -->
+        <div class="col-md-3">
+          <input
+          type="date"
+          class="form-control text-light select-with-icon select-calendar"
+          id="pickupDate"
+          placeholder="Pick Up date"
+          />
+
+          <!-- <select class="form-select custom-select text-light select-with-icon select-calendar" id="pickupDate">
+            <option selected>Pick Up date</option>
+            <option value="1">02-03-2024</option>
+            <option value="2">02-03-2024</option>
+            <option value="3">02-03-2024</option>
+          </select> -->
+        </div>
+
+        <!-- Pickup Time -->
+        <div class="col-md-3">
+          <select class="form-select custom-select text-light select-with-icon select-time" id="pickupTime">
+            <option selected>12:00 AM</option>
+            <option value="1">01:00 AM</option>
+            <option value="2">02:00 AM</option>
+            <option value="3">03:00 AM</option>
+          </select>
+        </div>
+
+        <!-- Return Date -->
+        <div class="col-md-2">
+          <input
+          type="date"
+          class="form-control text-light select-with-icon select-calendar"
+          id="pickupDate"
+          placeholder="Return date"
+          />
+          <!-- <select class="form-select custom-select text-light select-with-icon select-calendar" id="returnDate">
+            <option selected>Return date</option>
+            <option value="1">03-04-2035</option>
+            <option value="2">03-04-2035</option>
+            <option value="3">03-04-2035</option>
+          </select> -->
+        </div>
+
+        <!-- Return Time -->
+        <div class="col-md-2">
+          <select class="form-select custom-select text-light select-with-icon select-time" id="returnTime">
+            <option selected>12:00 AM</option>
+            <option value="1">01:00 AM</option>
+            <option value="2">02:00 AM</option>
+            <option value="3">03:00 AM</option>
+          </select>
+        </div>
+
+        <!-- Search Button -->
+        <div class="col-md-2">
+          <button class="btn btn-1 px-5 text-light" type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+      <section class="number-arrow">
+        <div class="container my-5">
+          <div class="row text-center align-items-center">
+            <!-- Step 1: Choose a vehicle -->
+            <div class="col-md-3 step-box">
+              <div class="step-number text-light">1</div>
+              <div class="step-title">Choose a vehicle</div>
+              <div class="step-description">
+                Unlock unparalleled adventures and memorable journeys with our
+                vast fleet of vehicles tailored to suit every need, taste, and
+                destination.
+              </div>
+            </div>
+
+            <div class="col-md-3 step-box">
+              <div class="step-number text-light">2</div>
+              <div class="step-title">Pick location & date</div>
+              <div class="step-description">
+                Pick your ideal location and date,
+                and let us take you on a journey
+                filled with convenience, flexibility,
+                and unforgettable experiences.
+              </div>
+            </div>
+
+            <div class="col-md-3 step-box">
+              <div class="step-number text-light">3</div>
+              <div class="step-title">Make a booking</div>
+              <div class="step-description">
+                Secure your reservation with ease,
+                unlocking a world of possibilities and
+                embarking on your next adventure
+                with confidence.
+              </div>
+            </div>
+
+            <div class="col-md-3 step-box">
+              <div class="step-number text-light">4</div>
+              <div class="step-title">Sit back & relax</div>
+              <div class="step-description">
+                Hassle-free convenience as we take
+                care of every detail, allowing you to
+                unwind and embrace a journey filled
+                comfort.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="adventure-section py-5">
+        <div class="container">
+          <div class="text-left mb-5">
+            <h2 class="fw-bold adventures-heading">Let's Your <br> Adventure <br> Begin</h2>
+          </div>
+          <div class="row align-items-center">
+            <!-- Feature List -->
+             <div class="col-md-6">
+              <div class="mb-4  d-flex"> 
+                <img src="./images/Group 5.png" class="px-2" alt="">
+                <div>
+                  <h5 class="txt-head">First class services</h5>
+                  <p class="txt-para">Where luxury meets excellence, creating unforgettable moments and exceeding your every expectation.</p>
+                </div>
+              </div>
+
+              <div class="mb-4 d-flex">
+                <img src="./images/Group 6.png" class="px-2" alt="">
+                <!-- <i class="fas fa-tools fa-2x me-3 text-primary"></i> -->
+                <div>
+                  <h5 class="txt-head">24/7 road assistance</h5>
+                  <p class="txt-para">Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                </div>
+              </div>
+              <div class="mb-4 d-flex">
+                <img src="./images/Group 8.png" class="px-2" alt="">
+                <!-- <i class="fas fa-map-marker-alt fa-2x me-3 text-primary"></i> -->
+                <div>
+                  <h5 class="txt-head">Free Pick-Up & Drop-Off</h5>
+                  <p class="txt-para">Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="app-download-section py-5 text-white" style="background-color: #121212;">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Text and buttons on the left -->
+             <div class="col-md-6 mb-4 mb-md-0">
+              <h4 class="fw-bold mb-3 download">Download our apps to get<br>the best experience</h4>
+              <div class="d-flex gap-3">
+                <a href="#" class="btn btn-dark px-4 py-2">
+                  <img src="./images/Background+Border.png" alt="">
+                  <!-- <i class="fab fa-apple me-2"></i> App Store -->
+                </a>
+                <!-- <a href="#" class="btn btn-dark px-4 py-2">
+                  <i class="fab fa-google-play me-2"></i> Google Play
+                </a> -->
+              </div>
+            </div>
+            <!-- Image on the right -->
+             <div class="col-md-6 text-center main">
+              <div class="image1">
+                <img src="./images/Screenshot-iPhone15 Pro Max.png" alt="Mobile App Preview" class="phone img-fluid">
+              </div>
+              <div class="image2">
+                <img src="./images/Screenshot-iPhone15 Pro Max (1).png" alt="Mobile App Preview" class="phone img-fluid" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-cities text-light text-center py-3">
+        <div class="container">
+          <p style="margin: 0;">
+            TOP CAR RENTAL CITIES - LOS ANGELES - MADISON - NEWARK - PHOENIX - SEATTLE
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer py-5 text-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-3">
+            <h6 class="footer-head">
+              ALPHA <br />
+              WHEELS
+            </h6>
+            <div class="footer-underline"></div>
+
+            <p class="footer-para">
+              Where quality meets affordability. We understand the importance of
+              a smooth and enjoyable journey without the burden of excessive
+              costs. That's why we have meticulously crafted our offerings to
+              provide you with top-notch vehicles at minimum expense.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="contact-info py-2">Contact Info</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #dbdfe6"
+                  ></i>
+                  08 W 36th St, New York, NY 10001
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i class="fa-solid fa-phone" style="color: #e3e7ed"></i>
+                  +1 333 9296
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <i class="fa-solid fa-envelope" style="color: #e5e7eb"></i>
+                  contact@example.com
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  <img src="./images/download_brouchure.png" alt="" />
+                  Download Brochure
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="quick-links py-2">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Cars</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Booking</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="social-network py-2">Social Network</h6>
+            <a href="#"><img src="./images/social_img1.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img2.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img3.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img4.png" alt="" /></a>
+            <a href="#"><img src="./images/social_img5.png" alt="" /></a>
+          </div>
+        </div>
+        <hr>
+        <!-- Footer bottom -->
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-4"
+        >
+          <div class="copyright">Copyright 2024 - Rentaly by Designesia</div>
+          <div class="terms-privacy">
+            <a href="#" class="text-light text-decoration-none me-3"
+              >Terms & Conditions</a
+            >
+            <a href="#" class="text-light text-decoration-none"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <a href="#">Hello</a> -->
+    <!-- Fourth link popperjs cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Third link js cdn -->
+    <script src="./bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

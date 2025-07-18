@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Wheels</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.5-dist/css/bootstrap.min.css"
+    />
+    
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg nav-bar py-2">
+        <div class="container">
+          <div class="navbar-brand text-light" href="#">
+            <h6 class="head">ALPHA <br> WHEELS</h6>
+              <div class="footer-underline"></div>
+            <!-- ALPHA <br />
+            WHEELS -->
+          </div>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light fw-medium mx-5 py-2"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./cars.html">Cars</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./quick-booking.html"
+                  >Booking</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-light fw-medium mx-4" href="./contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+
+            <a href="./sign-up.html" class="btn btn-dark btn-sign-in text-white ms-5 px-4">Sign In</a>
+            <!-- <button
+              class="btn btn-dark btn-sign-in text-white ms-5 px-4"
+              type="submit"
+            >
+              Sign In
+            </button> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner text-center py-5">
+        <div class="container">
+          <div class="banner-content">
+            <h1 class="banner-heading">Premium Cars</h1>
+            <p class="banner-para">
+              Discover the world in unparalleled comfort and style.
+            </p>
+            <button
+              type="button"
+              class="btn border-white btn-1 text-white ms-5 px-5"
+            >
+              Discover
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Vehicle Fleet -->
+      <section class="vehicle-section text-center">
+        <div class="container py-5">
+          <div class="vehicle-content mb-5">
+            <h2 class="vehicle-heading">Our Vehicle Fleet</h2>
+            <p class="vehicle-para">
+              Driving your dreams to reality with an exquisite fleet of
+              versatile vehicles for <br />
+              unforgettable journeys.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/vehicle1.png"
+                  class="card-img-top"
+                  alt="BMW M2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <p class="card-para">BMW M2</p>
+                    <img src="./images/Icon.png" alt="" />
+                    <span class="text-num">36</span>
+                  </h5>
+                  <div class="card-icons">
+                    <a href="" class="icon-with-number">
+                      <img src="./images/1-green.svg.png" alt="" />
+                      <span class="icon-number">5</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/2-green.svg.png" alt="" />
+                      <span class="icon-number">2</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/3-green.svg.png" alt="" />
+                      <span class="icon-number">4</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/4-green.svg.png" alt="" />
+                      <span class="icon-number">Sedan</span>
+                    </a>
+                  </div>
+                  <div class="card-footer">
+                    <div class="rate-info">
+                      <p>
+                        Daily rate from <br />
+                        $244
+                      </p>
+                      <button class="btn btn-rent-now">Rent Now</button>
+
+                      <!-- <small class="">Daily rate from</small>
+                      <div class="rate">$244</div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/vehicle2.png"
+                  class="card-img-top"
+                  alt="Ford Raptor"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <p class="card-para">Ford Raptor</p>
+                    <img src="./images/Icon.png" alt="" />
+                    <span class="text-num">36</span>
+                  </h5>
+                  <div class="card-icons">
+                    <a href="" class="icon-with-number">
+                      <img src="./images/1-green.svg.png" alt="" />
+                      <span class="icon-number">5</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/2-green.svg.png" alt="" />
+                      <span class="icon-number">2</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/3-green.svg.png" alt="" />
+                      <span class="icon-number">4</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/4-green.svg.png" alt="" />
+                      <span class="icon-number">Sedan</span>
+                    </a>
+                  </div>
+                  <div class="card-footer">
+                    <div class="rate-info">
+                      <p>
+                        Daily rate from <br />
+                        $147
+                      </p>
+                      <button class="btn btn-rent-now">Rent Now</button>
+
+                      <!-- <small class="">Daily rate from</small>
+                      <div class="rate">$244</div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/vehicle3.png"
+                  class="card-img-top"
+                  alt="Mini Cooper"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <p class="card-para">Mini Cooper</p>
+                    <img src="./images/Icon.png" alt="" />
+                    <span class="text-num">36</span>
+                  </h5>
+                  <div class="card-icons">
+                    <a href="" class="icon-with-number">
+                      <img src="./images/1-green.svg.png" alt="" />
+                      <span class="icon-number">5</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/2-green.svg.png" alt="" />
+                      <span class="icon-number">2</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/3-green.svg.png" alt="" />
+                      <span class="icon-number">4</span>
+                    </a>
+                    <a href="" class="icon-with-number">
+                      <img src="./images/4-green.svg.png" alt="" />
+                      <span class="icon-number">Sedan</span>
+                    </a>
+                  </div>
+                  <div class="card-footer">
+                    <div class="rate-info">
+                      <p>
+                        Daily rate from <br />
+                        $236
+                      </p>
+                      <button class="btn btn-rent-now">Rent Now</button>
+
+                      <!-- <small class="">Daily rate from</small>
+                      <div class="rate">$244</div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-section py-5">
+        <div class="container">
+          <div class="top-section">
+            <div class="left-image">
+              <img src="./images/9.jpg.png" alt="Woman Driving" />
+            </div>
+            <div class="right-content">
+              <img
+                src="./images/car.jpg.png"
+                alt="Car Image"
+                class="car-image"
+              />
+              <h2>
+                We offer customers a wide range of commercial cars and luxury
+                cars for any occasion.
+              </h2>
+              <p>
+                At our car rental agency, we believe that everyone deserves to
+                experience the you need transportation for a business trip,
+                family vacation, or simply want to enjoy a weekend getaway, we
+                have flexible rental options to accommodate your schedule.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-boxes">
+            <div class="box"><span class="number">15425</span> <br /><span class="text">Completed Orders</span></div>
+            <div class="box"><span class="number">8745</span  class="text"><br /><span>Happy Customers</span></div>
+            <div class="box"><span class="number">235</span  class="text"><br /><span>Happy Customers</span></div>
+            <div class="box"><span class="number">15</span  class="text"><br /><span>Happy Customers</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features-section py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold features-heading">Our Features</h2>
+            <p class="features-para">Discover a world of convenience, safety, and customization, paving the way for <br> unforgettable adventures and seamless mobility solutions.</p>
+          </div>
+          <div class="row align-items-center">
+            <!-- Feature List -->
+             <div class="col-md-6">
+              <div class="mb-4 d-flex"> 
+                <img src="./images/Group 5.png" class="px-2" alt="">
+                <div>
+                  <h5 class="txt-head">First class services</h5>
+                  <p class="txt-para">Where luxury meets excellence, creating unforgettable moments and exceeding your every expectation.</p>
+                </div>
+              </div>
+
+              <div class="mb-4 d-flex">
+                <img src="./images/Group 6.png" class="px-2" alt="">
+                <!-- <i class="fas fa-tools fa-2x me-3 text-primary"></i> -->
+                <div>
+                  <h5 class="txt-head">24/7 road assistance</h5>
+                  <p class="txt-para">Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                </div>
+              </div>
+              <div class="mb-4 d-flex">
+                <img src="./images/Group 7.png" class="px-2" alt="">
+              <!-- <i class="fas fa-tags fa-2x me-3 text-primary"></i> -->
+              <div>
+                <h5 class="txt-head">Quality at Minimum Expense</h5>
+                <p class="txt-para">Unlocking affordable brilliance with elevated quality and minimized costs for your rental journey.</p>
+              </div>
+            </div>
+            <div class="mb-4 d-flex">
+              <img src="./images/Group 8.png" class="px-2" alt="">
+              <!-- <i class="fas fa-map-marker-alt fa-2x me-3 text-primary"></i> -->
+              <div>
+                <h5 class="txt-head">Free Pick-Up & Drop-Off</h5>
+                <p class="txt-para">Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Car Image -->
+           <div class="col-md-6 text-center ">
+            <img src="./images/our_features_car_img.png" alt="Car" class="car-img-fluid">
+          </div>
+        </div>
+      </section>
+
+      <section class="guests-section text-center">
+        <div class="container py-5">
+          <div class="guests_text mb-5">
+            <h3>Hear from our Guests</h3>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./images/Guests_img_1.png"
+                  class="card-img-top"
+                  alt="image1"
+                />
+                <div class="card-body">
+                  <h5 class="guests-head">Stepanie Hutchkiss</h5>
+                  <p><img src="./images/quotes.svg.png" alt=""></p>
+                  <p class="guests-para">
+                    I have been using Rentaly for my Car Rental needs for over 5 years now. I have never had any problems with their service.
+                  </p> 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./images/Guests_img_2.png"
+                  class="card-img-top"
+                  alt="image1"
+                />
+                <div class="card-body">
+                  <h5 class="guests-head">jOVAN REELS</h5>
+                  <p><img src="./images/quotes.svg.png" alt=""></p>
+                  <p class="guests-para">
+                    We have been using Rentaly for our trips needs for several years now and have always been happy with their service.
+                  </p> 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./images/Guests_img_3.png"
+                  class="card-img-top"
+                  alt="image1"
+                />
+                <div class="card-body">
+                  <h5 class="guests-head">Kanesha Keyton</h5>
+                  <p><img src="./images/quotes.svg.png" alt=""></p>
+
+                  <p class="guests-para">
+                    Endorsed by industry experts, Rentaly is the Car Rental solution you can trust. With years of experience , reliable and secure Car Rental services.
+                  </p> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="latest-section text-center">
+        <div class="container py-5">
+          <div class="latest_text mb-5">
+            <h3 class="latest_head">Latest News</h3>
+            <p class="fs-5 latest_para">
+              Breaking news, fresh perspectives, and in-depth coverage - stay ahead with our <br>
+              latest news, insights, and analysis.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./images/latest-news-img1.png"
+                  class="card-img-top"
+                  alt="image1"
+                />
+                <div class="card-body">
+                  <h5 class="card-head">Enjoy Best Travel Experience</h5>
+                  <p class="card-para">
+                    Traveling is an enriching experience that
+                    allows us to explore new destinations,
+                    immerse ourselves in different cultures,
+                    and create lifelong memories.
+                  </p>
+                  <button
+                    class="btn btn-1 px-4 text-white"
+                    type="button"
+                  >
+                    Read More
+                  </button>
+                  <!-- <a href="#" class="btn btn-primary btn-3 mt-3">Know More</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./images/latest-news-img2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-head">The Future of Car Rent</h5>
+                  <p class="card-para">
+                    Traveling is an enriching experience that
+                    allows us to explore new destinations,
+                    immerse ourselves in different cultures,
+                    and create lifelong memories.
+                  </p>
+                  <button
+                    class="btn btn-1 px-4 text-white mt-3"
+                    type="button"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./images/latest-news-img3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-head">The Future of Car Rent</h5>
+                  <p class="card-para">
+                    Traveling is an enriching experience that
+                    allows us to explore new destinations,
+                    immerse ourselves in different cultures,
+                    and create lifelong memories.
+                  </p>
+                  <button
+                    class="btn btn-1 px-4 text-white mt-3"
+                    type="button"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="adventure-section py-5">
+        <div class="container">
+          <div class="text-left mb-5">
+            <h2 class="fw-bold adventures-heading">Let's Your <br> Adventure <br> Begin</h2>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="mb-4 d-flex"> 
+                <img src="./images/Group 5.png" class="px-2" alt="">
+                <div>
+                  <h5 class="txt-head">First class services</h5>
+                  <p class="txt-para">Where luxury meets excellence, creating unforgettable moments and exceeding your every expectation.</p>
+                </div>
+              </div>
+
+              <div class="mb-4 d-flex">
+                <img src="./images/Group 6.png" class="px-2" alt="">
+                <!-- <i class="fas fa-tools fa-2x me-3 text-primary"></i> -->
+                <div>
+                  <h5 class="txt-head">24/7 road assistance</h5>
+                  <p class="txt-para">Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                </div>
+              </div>
+
+              <div class="mb-4 d-flex">
+                <img src="./images/Group 8.png" class="px-2" alt="">
+                <!-- <i class="fas fa-map-marker-alt fa-2x me-3 text-primary"></i> -->
+                <div>
+                  <h5 class="txt-head">Free Pick-Up & Drop-Off</h5>
+                  <p class="txt-para">Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>      
+      </section>  
+
+      <section class="faq-section py-5 text-white">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="question-heading fw-bold">Have Any Questions?</h2>
+          </div>
+          
+          <div class="accordion accordion-flush" id="faqAccordion">
+            <!-- FAQ Item 1 -->
+             <div class="accordion-item bg-transparent border-bottom border-white">
+              <h2 class="accordion-header" id="faqHeadingOne">
+                <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne">
+                  How do I get started with Car Rental?
+                </button>
+              </h2>
+              <div id="faqCollapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white">
+                  You can start by browsing our car collection and booking directly through the website or mobile app.
+                </div>
+              </div>
+            </div>
+            
+            <!-- FAQ Item 2 -->
+             <div class="accordion-item bg-transparent border-bottom border-white">
+              <h2 class="accordion-header" id="faqHeadingTwo">
+                <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo">
+                  Can I rent a car with a debit card?
+                </button>
+              </h2>
+              <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white">
+                  Yes, we accept debit cards. Please ensure it has sufficient balance and is in your name.
+                </div>
+              </div>
+            </div>
+            
+            <!-- FAQ Item 3 -->
+             <div class="accordion-item bg-transparent border-bottom border-white">
+              <h2 class="accordion-header" id="faqHeadingThree">
+                <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree">
+                  What kind of Car Rental do I need?
+                </button>
+              </h2>
+              <div id="faqCollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white">
+                  It depends on your trip. We offer compact cars, SUVs, and luxury models to suit your needs.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+             <div class="accordion-item bg-transparent border-bottom border-white">
+              <h2 class="accordion-header" id="faqHeadingFour">
+                <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour">
+                  What is a rental car security deposit?
+                </button> 
+              </h2>
+              <div id="faqCollapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white">
+                  It's a temporary hold on your card to ensure vehicle return. It’s released after inspection.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+  
+            <div class="accordion-item bg-transparent border-bottom border-white">              
+              <h2 class="accordion-header" id="faqHeadingFive">
+                <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive">
+                  Can I cancel or modify my reservation?
+                </button>
+              </h2>
+              <div id="faqCollapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-white">
+                  Yes, you can cancel or change your booking from your account dashboard or by contacting support.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="app-download-section py-5 text-white">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Text and buttons on the left -->
+             <div class="col-md-6 mb-4 mb-md-0">
+              <h4 class="fw-bold mb-3 download">Download our apps to get<br>the best experience</h4>
+              <div class="d-flex gap-3">
+                <a href="#" class="download-source px-4 py-2">
+                  <img src="./images/Background+Border.png" alt="">
+                  <!-- <i class="fab fa-apple me-2"></i> App Store -->
+                </a>
+              </div>
+            </div>
+            <!-- Image on the right -->
+             <div class="col-md-6 text-center main">
+              <div class="image1">
+                <img src="./images/Screenshot-iPhone15 Pro Max.png" alt="Mobile App Preview" class="phone img-fluid">
+              </div>
+              <div class="image2">
+                <img src="./images/Screenshot-iPhone15 Pro Max (1).png" alt="Mobile App Preview" class="phone img-fluid" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-cities text-light text-center py-3">
+        <div class="container">
+          <p class="top-cities-text">
+            TOP CAR RENTAL CITIES 
+            <span class="city">LOS ANGELES</span> 
+            <span class="city">MADISON</span> 
+            <span class="city">NEWARK</span> 
+            <span class="city">PHOENIX</span> 
+            <span class="city">SEATTLE</span>
+          </p>
+          <!-- <p class="top-cities-text">
+            TOP CAR RENTAL CITIES - LOS ANGELES - MADISON - NEWARK - PHOENIX - SEATTLE
+          </p> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+       <footer class="footer py-5 text-light">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-3">
+              <h6 class="footer-head">ALPHA <br> WHEELS</h6>
+              <div class="footer-underline"></div>
+              <p class="footer-para">Where quality meets affordability. We
+                understand the importance of a smooth
+                and enjoyable journey without the burden
+                of excessive costs. That's why we have
+                meticulously crafted our offerings to
+                provide you with top-notch vehicles at
+                minimum expense.
+              </p>
+            </div>
+
+            <div class="col-md-3">
+              <h6 class="contact-info py-2">Contact Info</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none text-light">
+                    <i class="fa-solid fa-location-dot" style="color: #dbdfe6;"></i>
+                    08 W 36th St, New York, NY 10001
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-light">
+                    <i class="fa-solid fa-phone" style="color: #e3e7ed;"></i>
+                    +1 333 9296
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-light">
+                    <i class="fa-solid fa-envelope" style="color: #e5e7eb;"></i>
+                    contact@example.com
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-light">
+                    <img src="./images/download_brouchure.png" alt="">
+                    Download Brochure
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h6 class="quick-links py-2">Quick Links</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none text-light">About</a></li>
+                <li><a href="#" class="text-decoration-none text-light">Cars</a></li>
+                <li><a href="#" class="text-decoration-none text-light">Booking</a></li>
+                <li><a href="#" class="text-decoration-none text-light">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h6 class="social-network py-2">Social Network</h6>
+              <a href="#"><img src="./images/social_img1.png" alt=""></a>
+              <a href="#"><img src="./images/social_img2.png" alt=""></a>
+              <a href="#"><img src="./images/social_img3.png" alt=""></a>
+              <a href="#"><img src="./images/social_img4.png" alt=""></a>
+              <a href="#"><img src="./images/social_img5.png" alt=""></a>
+            </div>
+          </div>
+          <hr>
+          <!-- Footer bottom -->
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between mt-4"
+        >
+          <div class="copyright">Copyright 2024 - Rentaly by Designesia</div>
+          <div class="terms-privacy">
+            <a href="#" class="text-light text-decoration-none me-3"
+              >Terms & Conditions</a
+            >
+            <a href="#" class="text-light text-decoration-none"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+        </div>
+      </footer>
+    <!-- <a href="#">Hello</a> -->
+    <!-- Fourth link popperjs cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Third link js cdn -->
+    <script src="./bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
